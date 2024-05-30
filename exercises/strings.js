@@ -1,4 +1,4 @@
-let miCadena = 'esto es divertido';
+let miCadena = 'esto es divertidisimo';
 
 // a. Convertir a mayúsculas
 let cadenaMayusculas = miCadena.toUpperCase();

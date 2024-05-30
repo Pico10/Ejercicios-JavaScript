@@ -23,8 +23,12 @@ function validarEntero(numero) {
 }
 console.log('Es entero:', validarEntero(5.5));
 
-// d. Validar si los números son enteros en la función suma
-function sumaConValidacionEntero(a, b) {
+// d. Validar si los números son enteros en la función sumaaa
+function sumaConValidacionEntero(a, b) 
+{
+
+
+
     if (typeof a !== 'number' || typeof b !== 'number') {
         alert('Uno de los parámetros no es un número');
         return NaN;
@@ -37,6 +41,9 @@ function sumaConValidacionEntero(a, b) {
         alert('El segundo parámetro no es un entero, redondeando hacia abajo');
         b = Math.floor(b);
     }
+
+
+
     return a + b;
 }
 resultado = sumaConValidacionEntero(5.7, 10.4);
